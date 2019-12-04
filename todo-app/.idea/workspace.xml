@@ -8,20 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df496fd6-2c94-4748-835f-e97f4c3c5ea4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webModule_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/webModule_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/src/engine/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/engine/src/engine/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engine/src/engine/managers/UsersManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/engine/src/engine/managers/UsersManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webModule_war_exploded/WEB-INF/classes/META-INF/engine.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webModule_war_exploded/WEB-INF/classes/META-INF/engine.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webModule_war_exploded/WEB-INF/classes/META-INF/webModule.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webModule_war_exploded/WEB-INF/classes/META-INF/webModule.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webModule_war_exploded/WEB-INF/classes/engine/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webModule_war_exploded/WEB-INF/classes/engine/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/webModule_war_exploded/WEB-INF/classes/engine/managers/UsersManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webModule_war_exploded/WEB-INF/classes/engine/managers/UsersManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/webModule_war_exploded/WEB-INF/classes/servlets/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/webModule_war_exploded/WEB-INF/classes/servlets/RegisterServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/engine/META-INF/engine.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/engine/META-INF/engine.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/engine/engine/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/engine/engine/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/engine/engine/managers/UsersManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/engine/engine/managers/UsersManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/webModule/META-INF/webModule.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webModule/META-INF/webModule.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/webModule/servlets/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/webModule/servlets/RegisterServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webModule/src/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/src/servlets/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/src/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/src/servlets/RegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webModule/webModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webModule/webModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../todo-list" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-list" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webModule/src/servlets/RegisterServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="125">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="26" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -48,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webModule/src/servlets/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="34">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -57,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/engine/src/engine/managers/UsersManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+            <state relative-caret-position="91">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -84,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engine/src/engine/DBConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="221">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -167,10 +160,10 @@
         <option value="$PROJECT_DIR$/engine/src/engine/exceptions/FailedToConnectToDataBaseException.java" />
         <option value="$PROJECT_DIR$/engine/src/engine/DBConnector.java" />
         <option value="$PROJECT_DIR$/.floo" />
-        <option value="$PROJECT_DIR$/webModule/src/servlets/RegisterServlet.java" />
-        <option value="$PROJECT_DIR$/webModule/src/servlets/LoginServlet.java" />
         <option value="$PROJECT_DIR$/engine/src/engine/User.java" />
         <option value="$PROJECT_DIR$/engine/src/engine/managers/UsersManager.java" />
+        <option value="$PROJECT_DIR$/webModule/src/servlets/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/webModule/src/servlets/LoginServlet.java" />
       </list>
     </option>
   </component>
@@ -244,14 +237,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webModule/google-gson-2.1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25882354" />
   </component>
@@ -385,12 +378,12 @@
       <workItem from="1574068264786" duration="12594000" />
       <workItem from="1574247727690" duration="903000" />
       <workItem from="1574267590088" duration="8418000" />
-      <workItem from="1575458990740" duration="7533000" />
+      <workItem from="1575458990740" duration="17481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39186000" />
+    <option name="totallyTimeSpent" value="49134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -497,27 +490,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/engine/src/engine/DBConnector.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webModule/src/servlets/RegisterServlet.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/engine/src/engine/DBConnector.java</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webModule/src/servlets/LoginServlet.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/engine/src/engine/managers/UsersManager.java</url>
@@ -534,11 +509,17 @@
         <watch expression="isExists((&quot;ziv3r&quot;))" language="JAVA" />
         <watch expression="m_Users.get(i_Username)" language="JAVA" />
         <watch expression="!m_Users.get(i_Username).isUserPassword(i_Password)" language="JAVA" />
+        <watch expression="e" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>e</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>!m_Users.get(i_Username).isUserPassword(i_Password)</expression-string>
         <language-id>JAVA</language-id>
@@ -658,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engine/src/engine/DBConnector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engine/src/engine/managers/EngineManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -673,6 +647,13 @@
             <element signature="e#193#194#0" expanded="true" />
             <element signature="e#230#231#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engine/src/engine/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -686,31 +667,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/engine/src/engine/DBConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/webModule/src/servlets/RegisterServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="125">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="26" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webModule/src/servlets/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engine/src/engine/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="34">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/engine/src/engine/managers/UsersManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
+        <state relative-caret-position="91">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
@@ -767,7 +748,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>engine</last-edited>
+          <last-edited>webModule</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

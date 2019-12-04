@@ -30,5 +30,18 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/google-gson-2.1" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/google-gson-2.1" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/google-gson-2.1" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/google-gson-2.1" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>

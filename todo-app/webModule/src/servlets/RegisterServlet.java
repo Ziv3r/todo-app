@@ -1,5 +1,6 @@
 package servlets;
 
+import com.google.gson.Gson;
 import engine.exceptions.FailedToConnectToDataBaseException;
 import engine.managers.EngineManager;
 import utils.ServletUtils;
@@ -15,12 +16,15 @@ import java.io.PrintWriter;
 @WebServlet(urlPatterns = "/register")
 public class RegisterServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        {
+
+            response.setContentType("application/json");
             System.out.println("hey there");
         try (PrintWriter out = response.getWriter()) {
             try {
                 EngineManager engineManager = ServletUtils.getEngineManager(request.getServletContext());
                 engineManager.getUsersManager().register(request.getParameter("username"), request.getParameter("password"));
+                Gson gson = new Gson();
+                out.println(gson.toJson("hey"));
             } catch(FailedToConnectToDataBaseException ex){
                 response.setStatus(400);
                 System.out.println(ex.getMessage());
@@ -30,7 +34,7 @@ public class RegisterServlet extends HttpServlet {
                 response.setStatus(400);
                 out.println("error: " + e.getMessage());
             }
-        }
+
         }
     }
 
