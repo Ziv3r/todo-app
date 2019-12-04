@@ -28,7 +28,6 @@ public class LoginServlet extends HttpServlet {
                 out.println("error: " + e.getMessage());
             }
         }
-
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
