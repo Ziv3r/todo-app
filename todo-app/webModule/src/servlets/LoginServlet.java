@@ -12,29 +12,26 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(urlPatterns = "/register")
-public class RegisterServlet extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        {
-            System.out.println("hey there");
+@WebServlet(urlPatterns = "/login")
+public class LoginServlet extends HttpServlet {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try (PrintWriter out = response.getWriter()) {
             try {
                 EngineManager engineManager = ServletUtils.getEngineManager(request.getServletContext());
-                engineManager.getUsersManager().register(request.getParameter("username"), request.getParameter("password"));
+                engineManager.getUsersManager().login(request.getParameter("username"), request.getParameter("password"));
             } catch(FailedToConnectToDataBaseException ex){
                 response.setStatus(400);
                 System.out.println(ex.getMessage());
                 out.println("error: " + ex.getMessage());
             }catch(Exception e) {
-                // fail register case
                 response.setStatus(400);
                 out.println("error: " + e.getMessage());
             }
         }
-        }
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        doPost(request,response);
+        doPost(request, response);
     }
 }

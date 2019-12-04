@@ -32,4 +32,18 @@ public class UsersManager {
     private boolean isExists(String i_Username) {
         return m_Users.containsValue(i_Username);
     }
+
+    public void login(String i_Username, String i_Password) {
+        if (!isExists((i_Username))) {
+             throw new Exception("user is not exist do you want to register");
+        }
+        else if (m_Users.get(i_Username).isUserPassword(i_Password)){
+            // the username and it password is correct.
+
+        }
+        else{
+            // the username is exist but it password is wrong.
+            throw new Exception("username is exist but it password is wrong.");
+        }
+    }
 }

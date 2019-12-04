@@ -18,10 +18,13 @@ public class DBConnector {
        //"jdbc:mysql://localhost:3306/sqlpilot"
         String url = "jdbc:mysql://localhost:3306" +"/" + i_DBName;
         try {
+            Class.forName("com.mysql.jdbc.Driver");
             Connection connection = DriverManager.getConnection(url, i_User, i_Password);
             m_Statement = connection.createStatement();
         }catch (SQLException ex){
             throw new FailedToConnectToDataBaseException(i_DBName);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
         }
     }
 
